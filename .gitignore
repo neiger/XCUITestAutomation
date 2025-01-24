@@ -1,0 +1,78 @@
+# Ignore build output directories
+/target
+/dist/
+/build/
+
+# Ignore compiled class files
+*.class
+
+# Ignore VS Code settings
+.vscode/settings.json
+
+# Ignore log files
+logs/
+*.log
+npm-debug.log*
+
+# Ignore dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Ignore MacOS specific files
+.DS_Store
+
+# Ignore environment variables file
+.env
+
+# Ignore temporary files
+tmp/
+temp/
+
+# Xcode
+# 
+# Xcode automatically creates this folder in the project root directory
+# This is the default place for the derived data including all of the intermediate build results, indexes, etc.
+DerivedData/
+
+# Various settings, schemes, and user-specific files
+xcuserdata/
+*.xcuserstate
+
+# Project workspace, which can be regenerated
+*.xcworkspace
+
+# Swift Package Manager
+# 
+# Add this if you are using Swift Package Manager
+# https://github.com/apple/swift-package-manager
+.build/
+
+# CocoaPods
+# 
+# Add this if you are using CocoaPods
+# https://cocoapods.org/
+Pods/
+
+# Carthage
+# 
+# Add this if you are using Carthage
+# https://github.com/Carthage/Carthage
+Carthage/Build/
+
+# Fastlane
+#
+# https://fastlane.tools
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# XCUITest specific
+# Ignore UI test screenshots and test results
+UITestScreenshots/
+UITestResults/
