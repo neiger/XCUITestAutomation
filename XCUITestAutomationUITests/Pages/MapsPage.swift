@@ -33,4 +33,8 @@ class MapsPage: BasePage {
         let locationPin = app.otherElements[locationName]
         return locationPin.exists
     }
+    
+    func verifyActionsMade() {
+        
+    }
 }
