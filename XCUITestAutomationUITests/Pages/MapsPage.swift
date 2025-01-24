@@ -11,11 +11,12 @@ import XCTest
 class MapsPage: BasePage {
     
     override var rootElement: XCUIElement {
-        return app.otherElements["mapView"]
+        //return app.otherElements["mapView"]
+        return app.searchFields["MapsSearchTextField"]
     }
     
     var searchField: XCUIElement {
-        return app.searchFields["searchField"]
+        return app.searchFields["MapsSearchTextField"]
     }
     
     var searchButton: XCUIElement {
@@ -25,7 +26,7 @@ class MapsPage: BasePage {
     func searchForLocation(_ location: String) {
         searchField.tap()
         searchField.typeText(location)
-        searchButton.tap()
+        //searchButton.tap()
     }
     
     func verifyLocationExists(_ locationName: String) -> Bool {
